@@ -104,11 +104,13 @@ function Page() {
   return (
     <>
     <div>
-    <img 
-  src="https://img.lovepik.com/bg/20240420/3D-Rendering-Grunge-Shelf-with-Clothing-Items-on-Purple-Background_6933705_wh860.jpg" 
-  alt=""  
-  className="w-[120%] scale-125  lg:w-full "
-/>
+    <div className="w-full overflow-hidden">
+  <img 
+    src="https://img.lovepik.com/bg/20240420/3D-Rendering-Grunge-Shelf-with-Clothing-Items-on-Purple-Background_6933705_wh860.jpg" 
+    alt=""  
+    className="w-full max-w-none scale-[1.3] md:scale-100"
+  />
+</div>
 
     </div>
     <section className="text-gray-600 body-font">
