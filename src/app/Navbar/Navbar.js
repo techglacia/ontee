@@ -227,7 +227,7 @@ console.log(cartItems);
  
   </ul>
   <ul className='flex item-center px-1'>
- <img src="/images/logo.jpg" className='h-[8vh] w-full  lg:h-[20vh] lg:w-[30vw]' alt="" />
+ <img src="/images/logo.jpg" className='h-[8vh] w-full  lg:h-[25vh] lg:w-[30vw]' alt="" />
   </ul>
         <ul className='flex lg:px-4'>
         <li className=''><FaSearch className='text-[purple] h-[5vh] w-[8vw] hidden lg:block lg:h-[3.5vh] lg:w-[3.5vw]'/></li>
