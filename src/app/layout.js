@@ -18,6 +18,7 @@ export const metadata = {
   title: "Ontee Pakistan",
   description: "Pakistan Best Clothing Store",
    viewport: "width=device-width, initial-scale=1",
+    viewport: "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no",
 };
 
 export default function RootLayout({ children }) {
