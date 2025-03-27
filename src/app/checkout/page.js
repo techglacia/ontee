@@ -59,7 +59,7 @@ const Checkout = () => {
 
 
   return (
-    <section className="bg-white py-12 antialiased  my-16">
+    <section className="bg-white py-20 my-12antialiased  ">
       <form ref={form} onSubmit={sendEmail} className="mx-auto max-w-screen-xl px-4 2xl:px-0">
         <h2 className="text-xl font-semibold text-gray-900 dark:text-white">Delivery Details</h2>
         <input type="text" name="your_name" placeholder="Enter your name" required className="block w-full border p-2 mb-4" />
