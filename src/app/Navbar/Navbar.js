@@ -126,7 +126,7 @@ const Navbar = ({ item }) => {
       <nav className="fixed top-0 left-0 w-full h-13 bg-white shadow-md flex items-center justify-between px-5 z-50 ">
         <ul className='flex item-center lg:px-7'>
           <li className='cursor-pointer' onClick={() => setIsVisible(true)}>
-            <MdMenu className=' text-[purple] h-[4vh] w-[8vw] lg:block lg:h-[4vh] lg:w-[4vw] z-100' />
+            <MdMenu className=' text-[black] h-[4vh] w-[8vw] lg:block lg:h-[4vh] lg:w-[4vw] z-100' />
           </li>
 
           {isVisible && (
@@ -163,8 +163,8 @@ const Navbar = ({ item }) => {
 
                           {/* Contact Info */}
                           <div className="mt-3 space-y-1">
-                            <div className="text-[purple]">Login</div>
-                            <div className="text-[purple] last:border-b border-black py-4">Create Account</div>
+                            <div className="text-[black]">Login</div>
+                            <div className="text-[black] last:border-b border-black py-4">Create Account</div>
                           </div>
 
                           <div className="mt-6 space-y-1">
@@ -196,13 +196,13 @@ const Navbar = ({ item }) => {
           <li className='px-4'><FaSearch className='text-[purple] h-[4vh] w-[6vw] lg:hidden lg:h-[3.5vh] lg:w-[3.5vw]' /></li>
         </ul>
         <ul className='flex item-center '>
-          <img src="/images/logo.jpg" className='h-[8vh] w-full  lg:h-[25vh] lg:w-[30vw]' alt="" />
+          <img src="/images/logo.jpg" className='h-[6vh] w-full  lg:h-[20vh] lg:w-[30vw]' alt="" />
         </ul>
         <ul className='flex lg:px-4'>
-          <li className=''><FaSearch className='text-[purple] h-[5vh] w-[8vw] hidden lg:block lg:h-[3.5vh] lg:w-[3.5vw]' /></li>
-          <li className=''><MdOutlineAccountCircle className='text-[purple] h-[4vh] w-[8vw] lg:block lg:h-[4vh] lg:w-[4vw]' /></li>
+          <li className=''><FaSearch className='text-[black] h-[5vh] w-[8vw] hidden lg:block lg:h-[3.5vh] lg:w-[3.5vw]' /></li>
+          <li className=''><MdOutlineAccountCircle className='text-[black] h-[4vh] w-[8vw] lg:block lg:h-[4vh] lg:w-[4vw]' /></li>
           <li className="relative" onClick={() => setCartMenu(true)}>
-            <IoMdCart className="text-[purple] h-[4vh] w-[8vw] lg:h-[4vh] lg:w-[4vw]" />
+            <IoMdCart className="text-[black] h-[4vh] w-[8vw] lg:h-[4vh] lg:w-[4vw]" />
             <span className="absolute top-0 right-0 bg-red-600 text-white text-xs rounded-full px-1.5 py-0.5">
               {totalItems}
             </span>
