@@ -93,7 +93,7 @@ function Page() {
   />
   
   <img
-    src="/images/purplebglg.jprg"
+    src="/images/purplebglg.jpeg"
     alt="Desktop Background"
     className="hidden lg:block "
   />
