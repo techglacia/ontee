@@ -193,7 +193,7 @@ const Navbar = ({ item }) => {
               </div>
             </div>
           )}
-          <li className='px-4'><FaSearch className='text-[purple] h-[4vh] w-[6vw] lg:hidden lg:h-[3.5vh] lg:w-[3.5vw]' /></li>
+          <li className='px-4'><FaSearch className='text-[black] h-[4vh] w-[6vw] lg:hidden lg:h-[3.5vh] lg:w-[3.5vw]' /></li>
         </ul>
         <ul className='flex item-center '>
           <img src="/images/logo.jpg" className='h-[6vh] w-full  lg:h-[20vh] lg:w-[30vw]' alt="" />
